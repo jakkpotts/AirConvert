@@ -1,2 +1,3 @@
-source venv/bin/activate
-python3 -u main.py
+#!/bin/sh
+
+"$PWD/venv/bin/python" -u main.py "$@"
